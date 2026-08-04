@@ -14,7 +14,7 @@
 
 Welcome to An Idea, a feature-rich game site created for you! With over 150 games to choose from, An Idea offers a unique and customizable gaming experience. Whether you're a gamer, a developer, or your average Joe, An Idea provides a seamless and enjoyable gaming environment.
 
-> Consider giving us a star! Especially if you forked this repository or you found some other use out of this repository.
+> Consider giving us a star!
 
 ## Features
 
