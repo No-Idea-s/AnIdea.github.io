@@ -671,15 +671,28 @@ document.addEventListener('keydown', onKeyPress);
 document.addEventListener('keyup', onKeyRelease);
 
 const defaultColorSettings = {
-    bg: '#202020',
-    'block-color': '#2b2b2b',
-    'button-color': '#373737',
-    'games-color': '#373737a6',
-    'hover-color': '#3c3c3c',
-    'scrollbar-color': '#434343',
-    'scroll-track-color': '#111',
-    'font-color': '#dcddde',
+    bg: '#0b0b0f',
+    'block-color': '#1c1c1e',
+    'button-color': '#2c2c2e',
+    'games-color': '#2c2c2e',
+    'hover-color': '#3a3a3c',
+    'scrollbar-color': '#636366',
+    'scroll-track-color': '#000000',
+    'font-color': '#f5f5f7',
+
+    'input-color': '#1c1c1e',
+    'input-border': '#8e8e93',
+    'input-background': '#ffffff',
+    'input-placeholder': '#6e6e73',
+    'input-border-focus': '#0a84ff',
+    'group-color': 'var(--input-color)',
+    'group-border': 'var(--input-border)',
+    'group-background': '#f2f2f7',
+    'group-color-focus': '#ffffff',
+    'group-border-focus': 'var(--input-border-focus)',
+    'group-background-focus': '#0a84ff',
 };
+
 
 const colorSettings = JSON.parse(localStorage.getItem('colorSettings')) || defaultColorSettings;
 
