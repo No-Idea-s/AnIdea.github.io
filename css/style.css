@@ -385,6 +385,10 @@ svg {
     border: 0;
 }
 
+.card[data="games"] {
+    margin-left: clamp(0px, calc(2vw - 10px), 1rem);
+}
+
 .switch {
     margin: auto;
     display: inline-block;
