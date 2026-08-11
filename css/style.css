@@ -860,9 +860,13 @@ button.in-game-button:active {
     outline-offset: 2px;
 }
 
-.homepage {
-    height: 100vh;
-    margin-top: 0;
-    align-items: center;
-    justify-content: center;
+.card-row {
+    width: fit-content;
+}
+
+.column {
+    width: auto;
+}
+.column {
+    padding: 0 10px;
 }
