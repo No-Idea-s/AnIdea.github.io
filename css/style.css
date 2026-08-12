@@ -861,12 +861,15 @@ button.in-game-button:active {
 }
 
 .card-row {
-    width: fit-content;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
 .column {
-    width: auto;
-}
-.column {
+    flex: 1;
+    min-width: 0;
     padding: 0 10px;
 }
